@@ -1,0 +1,21 @@
+{
+  "name": "googlecy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NganNK",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
